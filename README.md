@@ -14,15 +14,8 @@ Ubicar terminal en **relay-server**
 - `yarn` para instalar dependencias.
 - `node main.js` para ejecutar las escuchas de la app en http://localhost:3000
 
-Abrir el navegador e ir al puerto http://localhost:3000, donde se podrá ver:
-```
-Owner ETH balance: 9999.976306008
-Owner Token balance: 2800
-addr1 ETH balance: 10000.0
-addr1 Token balance: 100
-addr2 ETH balance: 10000.0
-addr2 Token balance: 100
-```
+
+
 
 ### Paso 3: Correr el frontend
 Ubicar terminal en carpeta **wallet-vue**
@@ -47,12 +40,3 @@ Private Key: 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a
 - presione "transfer", y podra ver la "signature sent" en la consola.
 
 
-Vaya al http://localhost:3000 de navegador y podrá ver tokens de transferencia addr1 a addr2 sin tarifa de gas, la cual si ha sido pagada por el owner del token.
-```
-Owner ETH balance: 9999.975866904
-Owner Token balance: 2800
-addr1 ETH balance: 10000.0
-addr1 Token balance: 58
-addr2 ETH balance: 10000.0
-addr2 Token balance: 142
-```
