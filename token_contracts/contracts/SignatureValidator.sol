@@ -3,7 +3,7 @@ pragma solidity 0.7.0;
 pragma experimental ABIEncoderV2;
 
 contract SignatureValidator {
-    uint256 constant chainId = 4;
+    uint256 constant chainId = 1337;
 
     struct Transaction {
         address payable to;

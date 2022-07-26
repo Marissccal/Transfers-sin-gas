@@ -29,8 +29,8 @@ const addr2 = new ethers.Wallet(
   provider
 );
 
-// const addr1Address = "0x70997970c51812dc3a010c7d01b50e0d17dc79c8";
-// const addr2Address = "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc";
+const addr1Address = "0x70997970c51812dc3a010c7d01b50e0d17dc79c8";
+const addr2Address = "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc";
 
 const contractAddress = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
 const contract = new ethers.Contract(contractAddress, contractABI, owner);

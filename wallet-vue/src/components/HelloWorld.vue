@@ -57,7 +57,7 @@ export default {
           ],
         },
         domain: {
-          name: "MyCrypto",
+          name: "Mariscal",
           version: "1.0.0",
           chainId: 4,
           verifyingContract: "0x5fbdb2315678afecb367f032d93f642f64180aa3",
@@ -87,10 +87,10 @@ export default {
       this.metaMaskAddress = data.metaMaskAddress;
       this.web3 = data.web3;
       // web3.setProvider(
-      //   "https://rinkeby.infura.io/v3/ff6a249a74e048f1b413cba715f98d07"
+      //   "https://rinkeby.infura.io/v3/"
       // );
       // const web3 = new Web3(
-      //   "https://rinkeby.infura.io/v3/ff6a249a74e048f1b413cba715f98d07"
+      //   "https://rinkeby.infura.io/v3/"
       // );
     },
     recover() {
