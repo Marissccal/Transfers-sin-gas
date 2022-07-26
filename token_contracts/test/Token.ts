@@ -25,8 +25,8 @@ describe("Token basic", () => {
     expect(await token.issuer()).to.equal(owner.address);
   });
 
-  it("should have name MyAwesomeToken", async () => {
-    expect(await token.name()).to.equal("MyAwesomeToken");
+  it("should have name MariscalToken", async () => {
+    expect(await token.name()).to.equal("AwesomeToken");
   });
 
   it("should have 3000 total supply", async () => {
