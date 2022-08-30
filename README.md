@@ -5,7 +5,7 @@
 Ubicar terminal en **token_contracts**
 
 - `yarn` para instalar dependencias
-- `npx hardhat node` para ejecutar la red hardhat y el servidor JSON-RPC en http://127.0.0.1:8545
+- `npx hardhat node` para ejecutar Hardhat Network y el servidor JSON-RPC en http://127.0.0.1:8545
 - `npx hardhat run --network localhost scripts/deployMetaTransaction.js` para implementar el contrato de metatransacciones
 
 ### Paso 2: Correr el Relay Server
